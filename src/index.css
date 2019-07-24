@@ -1,0 +1,48 @@
+html, body, #root{
+  position: relative;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.timer {
+  position: fixed;
+  background: white;
+  top: 60px;
+  right: 10px;
+}
+
+.large-margin-top{
+  margin-top: 80px;
+}
+
+.course-wrapper{
+  margin-top: 80px;
+  padding: 15px;
+  height: fit-content;
+}
+
+.plate{
+  display: inline-block;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.equation{
+  max-width: 500px;
+}
+
+.logo-container{
+  width: 100px;
+  height: 100px;
+}
