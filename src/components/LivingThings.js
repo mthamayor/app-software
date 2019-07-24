@@ -29,8 +29,10 @@ const rows = [
 
 const LivingThings = props => {
   return (
-    <div className=''>
-      <h3>CHARACTERISTICS AND CLASSIFICATION OF LIVING THINGS</h3>
+    <div className='p-3'>
+      <div className="text-center">
+        <h3>CHARACTERISTICS AND CLASSIFICATION OF LIVING THINGS</h3>
+      </div>
       <p>
         <span className='pl-3' />
         It is obvious that people are living things. Most of us realize that

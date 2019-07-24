@@ -23,8 +23,10 @@ const rows = [
 
 const Acids = props => {
   return (
-    <div className=''>
-      <h3>Acids, Bases and Salts</h3>
+    <div className='p-3'>
+      <div className='text-center'>
+        <h3>Acids, Bases and Salts</h3>
+      </div>
       <h4 className='text-center text-uppercase'>Acids</h4>
       <p>
         Acids are substances that produce hydrogen ion (H+) as the only
@@ -189,7 +191,6 @@ const Acids = props => {
           <span>Hydroxyl ion</span>
           <span />
           <span>Water</span>
-          <span />
         </div>
       </div>
       <p>
