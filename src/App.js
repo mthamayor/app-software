@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { MuiThemeProvider, Grid, createMuiTheme } from '@material-ui/core';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import { Acids, LivingThings, EnvPollution } from './components';
 
 const theme = createMuiTheme({
